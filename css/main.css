@@ -2,6 +2,7 @@ html {
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
   line-height: 1.5;
+  background-color: #ccc;
 }
 
 *, *::before, *::after {
@@ -21,4 +22,10 @@ li {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+a {
+  background-color: #444;
+  color: #ccc;
+  padding: .5rem;
 }
