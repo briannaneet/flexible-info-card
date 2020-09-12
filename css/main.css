@@ -1,5 +1,7 @@
 html {
   box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -11,10 +13,11 @@ body {
 }
 
 img {
-  width: 100%;
+  width: 5rem;
   display: block;
 }
 
 li {
   display: flex;
+  justify-content: space-around;
 }
