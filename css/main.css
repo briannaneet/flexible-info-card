@@ -11,6 +11,7 @@ html {
 
 body {
   margin: 0;
+  padding: 2rem;
 }
 
 img {
@@ -20,9 +21,9 @@ img {
 
 li {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  padding: .5rem 1rem .6rem;
+  width: 100%;
 }
 
 a {
@@ -33,11 +34,13 @@ a {
 
 h2 {
   text-align: center;
+  margin-top: 0;
 }
 
 hgroup {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
   padding: .5rem 1rem .6rem;
 }
 
@@ -53,4 +56,5 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  padding: 0;
 }
