@@ -22,6 +22,7 @@ li {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: .5rem 1rem .6rem;
 }
 
 a {
@@ -37,6 +38,7 @@ h2 {
 hgroup {
   display: flex;
   flex-direction: column;
+  padding: .5rem 1rem .6rem;
 }
 
 h3, h4 {
@@ -44,7 +46,7 @@ h3, h4 {
 }
 
 p {
-
+  width: 24rem;
 }
 
 ul {
